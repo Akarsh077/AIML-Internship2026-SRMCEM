@@ -3,9 +3,19 @@ import pandas as pd
 import numpy as np
 import tensorflow as tf
 import joblib
+import os
+
+# Get the directory of the app.py
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+#Load trained model using absolute relative paths
+model_path = os.path.join(BASE_DIR,"wine_model.h5")
+scaler_path = os.path.join(BASE_DIR,"scaler.pkl")
+
+
 # Load trained model
-model = tf.keras.models.load_model("wine_model.h5")
-scaler = joblib.load("scaler.pkl")
+model = tf.keras.models.load_model(model_path)
+scaler = joblib.load(scaler_path)
+
 
 st.set_page_config(page_title="Wine Quality Predictor\nAkarsh07", page_icon="🍷")
 
