@@ -1,4 +1,4 @@
-Internship training AiML and Machine learning During 3rd year, 2 july 2026 to 13 july 2026  <br> Instructor :- *Dr. Ankit Dixit.*
+Internship training Artificial intelligence and Machine learning During 3rd year, 2 july 2026 to 13 july 2026  <br> Instructor :- *Dr. Ankit Dixit.*
 
 # **CAPSTONE PROJECT**
 
